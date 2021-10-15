@@ -18,8 +18,9 @@ function Header() {
           </div>  
 
           <div className="header--nav">
-            <div></div>
+          <div classname='emoji'>🏳️‍🌈 </div>
             <div className="header--option">
+            
             <span className="header--optionLineOne">Hello Guest</span>
             <span className="header--optionLineTwo">Sign In</span>
             </div>

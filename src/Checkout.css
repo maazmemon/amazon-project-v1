@@ -1,11 +1,21 @@
 .checkout{
-    display: flex;
     background-color: white;
+    display: flex;
     height: max-content;
     padding: 20px;
 }
+.checkout--left{
+    background-color: blue;
+}
+.checkout--adv{
+    width: 100%;
+    margin-bottom:10px ;
+}
 .checkout--title{
-    border-bottom: 1px solid black;
     padding: 10px;
-    margin-right: 40x;
+    border-bottom:1px solid black;
+
+}
+.checkout--right{
+    background-color: green;
 }
