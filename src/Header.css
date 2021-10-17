@@ -30,6 +30,7 @@
     border: none;
     height: 20px;
 }
+
 .header--SearchIcon{
    background-color: #f3a847;
    width: 30px;
@@ -41,6 +42,12 @@
 .header--nav{
     display: flex;
     justify-content: space-evenly;
+}
+.header--nav img{
+    width: 35px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top:5px;
 }
 .header--option{
     color: white;

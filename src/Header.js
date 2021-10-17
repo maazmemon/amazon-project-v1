@@ -15,10 +15,13 @@ function Header() {
           
 
           <SearchIcon class="header--SearchIcon"/>
-          </div>  
-
+          
+          </div> 
+          
+           
+           
           <div className="header--nav">
-          <div classname='emoji'>🏳️‍🌈 </div>
+          <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="india"></img>
             <div className="header--option">
             
             <span className="header--optionLineOne">Hello Guest</span>
