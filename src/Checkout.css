@@ -5,7 +5,7 @@
     padding: 20px;
 }
 .checkout--left{
-    background-color: blue;
+    background-color: white;
 }
 .checkout--adv{
     width: 100%;
@@ -17,5 +17,5 @@
 
 }
 .checkout--right{
-    background-color: green;
+    background-color: grey;
 }
