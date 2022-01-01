@@ -25,12 +25,14 @@ function Header() {
            
           <div className="header--nav">
           <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="india"></img>
+            
+            <Link to = '/login'>
             <div className="header--option">
             
             <span className="header--optionLineOne">Hello Guest</span>
             <span className="header--optionLineTwo">Sign In</span>
             </div>
-
+            </Link>
             <div className="header--option">
                 <span className="header--optionLineOne">Return</span>
             <span className="header--optionLineTwo">& Order</span>

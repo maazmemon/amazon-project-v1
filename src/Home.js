@@ -46,15 +46,34 @@ function Home() {
                price={17}
                image='https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg'
                /> 
+               <Product 
+               id='06'
+               title='NIke Air Jordan'
+               price={4900}
+               image='https://cdn.shopify.com/s/files/1/0603/3031/1875/products/CU0449-100a-L_1512x.jpg?v=1633762219'
+               />
                
             </div>
             <div className="home--row">
             <Product 
-               id='06'
+               id='07'
                title='I phone 13 (128GB)'
                price={8}
                image='https://m.media-amazon.com/images/I/71gm8v4uPBL._SL1500_.jpg'
                />
+
+               <Product 
+               id='08'
+               title='HoverBoard self balancing scooter'
+               price={16999}
+               image='https://m.media-amazon.com/images/I/41sRL7+aHAL.jpg'
+               /> 
+               <Product 
+               id='09'
+               title='HoverBoard self balancing scooter'
+               price={49999}
+               image='https://m.media-amazon.com/images/I/71ZDXihwaLL._SL1500_.jpg'
+               /> 
             </div>
 
           </div>  
