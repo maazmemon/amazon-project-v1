@@ -4,9 +4,17 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider.js';
+import { auth } from './firebase';
 
 function Header() {
-  const [{cart}, dispatch] = useStateValue();
+  const [{cart},{user}, dispatch] = useStateValue();
+ 
+   const handleAuthentication = () => {
+     if (user) {
+       auth.signOut();
+     }
+   }
+
     return (
         <div className="header">
 
@@ -27,10 +35,10 @@ function Header() {
           <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="india"></img>
             
             <Link to = '/login'>
-            <div className="header--option">
+            <div onClick={handleAuthentication}  className="header--option">
             
             <span className="header--optionLineOne">Hello Guest</span>
-            <span className="header--optionLineTwo">Sign In</span>
+            <span className="header--optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
             </div>
             </Link>
             <div className="header--option">

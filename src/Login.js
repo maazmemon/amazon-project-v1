@@ -10,7 +10,17 @@ function Login() {
 
     const signIn = e => {
         e.preventDefault();
-        //firebase
+        auth
+            .signInWithEmailAndPassword(email,password)
+            .then(
+                (auth)  => {
+                    //it successfully created a new user with Email and Pwd
+                    if(auth){
+                        history.push('/')
+                    }
+                }
+            )
+            .catch(error => alert(error.message))
     }
 
     const register  = e => {
