@@ -3,6 +3,7 @@ import React from "react";
 import { useStateValue } from "./StateProvider";
 import "./Subtotal.css";
 import {useHistory} from "react-router-dom";
+
 // import CurrencyFormat from "react-currency-format";
 // import { getCartTotal } from "./reducer";
 

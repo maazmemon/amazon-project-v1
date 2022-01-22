@@ -31,12 +31,12 @@
     height: 20px;
 }
 
-.header--SearchIcon{
+.header--searchIcon{
    background-color: #f3a847;
    width: 30px;
    height: 30px;
-   padding: 5px;
-  
+   padding: 8px;
+   
 }
 
 .header--nav{
@@ -64,7 +64,7 @@
     font-size: 15px;
     font-weight: 700;
 }
-.header--optionbasket{
+.header--optionBasket{
     color: white;
     display: flex;
     align-items: center;
